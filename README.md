@@ -1,27 +1,24 @@
-# EclBuilder
+# ECL Builder
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
+The ECL Builder acts as a standalone web component that can be included in web projects to help create basic ECL statements.
+
+## Framework
+
+This project runs on the [Angular](https://github.com/angular) framework. Current version is 12.2.6.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
 ## Build
 
-Run `ng build --configuration production --output-hashing none && node concatenate.js` to build the project. This will give you a bundled file in the output folder.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## License
 
-## Running end-to-end tests
+Apache 2.0
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+See the included LICENSE file for details.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
